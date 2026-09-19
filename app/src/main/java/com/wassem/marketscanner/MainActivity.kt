@@ -199,6 +199,31 @@ fun FlagCard(flag: Flag) {
             }
             Spacer(modifier = Modifier.height(4.dp))
             Text(flag.summary, style = MaterialTheme.typography.bodyMedium)
+            if (flag.historicalContext.isNotBlank()) {
+                Spacer(modifier = Modifier.height(8.dp))
+                Column(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .background(
+                            Color.White.copy(alpha = 0.06f),
+                            shape = androidx.compose.foundation.shape.RoundedCornerShape(6.dp)
+                        )
+                        .padding(8.dp)
+                ) {
+                    Text(
+                        "What setups like this have tended to do",
+                        style = MaterialTheme.typography.labelSmall,
+                        fontWeight = FontWeight.Bold,
+                        color = Color.Gray
+                    )
+                    Spacer(modifier = Modifier.height(2.dp))
+                    Text(
+                        flag.historicalContext,
+                        style = MaterialTheme.typography.bodySmall,
+                        color = Color.LightGray
+                    )
+                }
+            }
         }
     }
 }

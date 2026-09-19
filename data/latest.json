@@ -1,18 +1,20 @@
 {
-  "updated_at": "2026-09-19T10:33:48Z",
+  "updated_at": "2026-09-19T10:55:05Z",
   "disclaimer": "This is pattern-spotting from public web data, not financial advice or a trading recommendation - verify independently before acting.",
   "flags": [
     {
       "symbol": "XENE",
       "name": "Xenon Pharmaceuticals",
       "direction": "down",
-      "summary": "Fell about 29% after pausing its Phase 3 epilepsy drug trial - a severe, unambiguous catalyst. Technicals confirm the weakness: a 'Strong Sell' rating with 11 of 12 moving averages bearish and a deeply oversold Stochastic RSI (16.3), though the 14-day RSI (36.9) isn't extreme yet. Watch for further downside risk rather than an immediate bounce."
+      "summary": "Fell about 29% after pausing its Phase 3 epilepsy drug trial - a severe, unambiguous catalyst. Technicals confirm the weakness: a 'Strong Sell' rating with 11 of 12 moving averages bearish and a deeply oversold Stochastic RSI (16.3), though the 14-day RSI (36.9) isn't extreme yet. Watch for further downside risk rather than an immediate bounce.",
+      "historical_context": "General technical-analysis experience: large single-day drops from clinical-trial setbacks in biotech names have tended to see continued weakness or extended sideways consolidation over the following days-to-weeks rather than a quick V-shaped recovery, since the market typically waits for the company's next update (revised guidance, trial restart plans) before a bottom forms. An oversold reading alone doesn't reliably mark a bottom when the catalyst is this severe - this is a general tendency, not a prediction for this specific stock."
     },
     {
       "symbol": "COIN",
       "name": "Coinbase Global",
       "direction": "up",
-      "summary": "Jumped about 6.6% after the SEC approved a five-year 'Innovation Exemption' allowing tokenized stock trading - a real regulatory tailwind, not routine noise. Technicals confirm strong momentum (Strong Buy rating, MACD +5.23, ADX 54.8), but the 14-day RSI is already at 71 (overbought), so this is a watch-for-further-upside setup with real near-term pullback risk after the pop."
+      "summary": "Jumped about 6.6% after the SEC approved a five-year 'Innovation Exemption' allowing tokenized stock trading - a real regulatory tailwind, not routine noise. Technicals confirm strong momentum (Strong Buy rating, MACD +5.23, ADX 54.8), but the 14-day RSI is already at 71 (overbought), so this is a watch-for-further-upside setup with real near-term pullback risk after the pop.",
+      "historical_context": "General technical-analysis experience: momentum breakouts backed by a genuine catalyst and confirming volume/trend strength (like a rising ADX) have tended to keep running for a stretch, but RSI readings above 70 also raise the odds of a short-term pullback or consolidation before any further advance - chasing right after a 6%+ single-day pop has historically carried elevated mean-reversion risk. This is a general tendency, not a prediction for this specific stock."
     }
   ],
   "movers": [

@@ -6,7 +6,8 @@ data class Flag(
     val symbol: String,
     val name: String,
     val direction: String, // "up", "down", "watch"
-    val summary: String
+    val summary: String,
+    val historicalContext: String = "" // general base-rate tendency, not a prediction
 )
 
 data class Mover(
@@ -41,7 +42,8 @@ data class MarketData(
                             symbol = f.optString("symbol", ""),
                             name = f.optString("name", ""),
                             direction = f.optString("direction", "watch"),
-                            summary = f.optString("summary", "")
+                            summary = f.optString("summary", ""),
+                            historicalContext = f.optString("historical_context", "")
                         )
                     )
                 }
