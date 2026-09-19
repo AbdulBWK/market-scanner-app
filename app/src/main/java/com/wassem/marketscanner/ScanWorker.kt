@@ -14,12 +14,17 @@ class ScanWorker(appContext: Context, params: WorkerParameters) :
     CoroutineWorker(appContext, params) {
 
     override suspend fun doWork(): Result {
-        val data = MarketRepository.fetchLatest() ?: return Result.retry()
+        val raw = MarketRepository.fetchLatestRaw() ?: return Result.retry()
 
-        // Cache the raw response so the UI can show it instantly on next open.
-        val raw = fetchRawOrNull()
-        if (raw != null) {
-            MarketRepository.saveCache(applicationContext, raw)
+        // Cache the raw response so the UI can show it instantly on next open,
+        // and so switching languages doesn't need a fresh network call.
+        MarketRepository.saveCache(applicationContext, raw)
+
+        val lang = MarketRepository.getLanguage(applicationContext)
+        val data = try {
+            MarketData.fromJson(raw, lang)
+        } catch (e: Exception) {
+            return Result.retry()
         }
 
         val lastSeen = MarketRepository.getLastSeenUpdatedAt(applicationContext)
@@ -45,20 +50,6 @@ class ScanWorker(appContext: Context, params: WorkerParameters) :
         }
 
         return Result.success()
-    }
-
-    private fun fetchRawOrNull(): String? {
-        return try {
-            val client = okhttp3.OkHttpClient()
-            val request = okhttp3.Request.Builder()
-                .url(FeedConfig.FEED_URL + "?t=" + System.currentTimeMillis())
-                .build()
-            client.newCall(request).execute().use { response ->
-                if (!response.isSuccessful) null else response.body?.string()
-            }
-        } catch (e: Exception) {
-            null
-        }
     }
 
     companion object {

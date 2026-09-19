@@ -2,12 +2,26 @@ package com.wassem.marketscanner
 
 import org.json.JSONObject
 
+enum class AppLanguage(val code: String) {
+    ENGLISH("en"),
+    GERMAN("de");
+
+    companion object {
+        fun fromCode(code: String?): AppLanguage =
+            if (code == "de") GERMAN else ENGLISH
+    }
+}
+
 data class Flag(
     val symbol: String,
     val name: String,
-    val direction: String, // "up", "down", "watch"
+    val direction: String, // "up", "down", "watch" - what already happened
     val summary: String,
-    val historicalContext: String = "" // general base-rate tendency, not a prediction
+    val historicalContext: String = "", // general base-rate tendency, not a prediction
+    // Current technical-indicator reading (moving averages / oscillators already observed
+    // right now), NOT a forecast of where the price is headed next. "bullish", "bearish",
+    // or "neutral".
+    val technicalBias: String = "neutral"
 )
 
 data class Mover(
@@ -29,7 +43,17 @@ data class MarketData(
     val news: List<NewsItem>
 ) {
     companion object {
-        fun fromJson(raw: String): MarketData {
+        // Reads "<baseKey>_<lang>", falling back to "<baseKey>_en", then the bare
+        // "<baseKey>" (for older/un-translated feed entries), then finally [fallback].
+        private fun localized(obj: JSONObject, baseKey: String, lang: AppLanguage, fallback: String = ""): String {
+            val langSpecific = obj.optString("${baseKey}_${lang.code}", "")
+            if (langSpecific.isNotBlank()) return langSpecific
+            val en = obj.optString("${baseKey}_en", "")
+            if (en.isNotBlank()) return en
+            return obj.optString(baseKey, fallback)
+        }
+
+        fun fromJson(raw: String, lang: AppLanguage = AppLanguage.ENGLISH): MarketData {
             val obj = JSONObject(raw)
 
             val flags = mutableListOf<Flag>()
@@ -42,8 +66,9 @@ data class MarketData(
                             symbol = f.optString("symbol", ""),
                             name = f.optString("name", ""),
                             direction = f.optString("direction", "watch"),
-                            summary = f.optString("summary", ""),
-                            historicalContext = f.optString("historical_context", "")
+                            summary = localized(f, "summary", lang),
+                            historicalContext = localized(f, "historical_context", lang),
+                            technicalBias = f.optString("technical_bias", "neutral")
                         )
                     )
                 }
@@ -71,19 +96,21 @@ data class MarketData(
                     val n = newsArr.getJSONObject(i)
                     news.add(
                         NewsItem(
-                            headline = n.optString("headline", ""),
-                            summary = n.optString("summary", "")
+                            headline = localized(n, "headline", lang),
+                            summary = localized(n, "summary", lang)
                         )
                     )
                 }
             }
 
+            val fallbackDisclaimer = if (lang == AppLanguage.GERMAN)
+                "Dies ist ein Muster-Hinweis auf Basis öffentlicher Webdaten, keine Anlageberatung - bitte selbst prüfen."
+            else
+                "Pattern-spotting from public web data, not financial advice."
+
             return MarketData(
                 updatedAt = obj.optString("updated_at", ""),
-                disclaimer = obj.optString(
-                    "disclaimer",
-                    "Pattern-spotting from public web data, not financial advice."
-                ),
+                disclaimer = localized(obj, "disclaimer", lang, fallbackDisclaimer),
                 flags = flags,
                 movers = movers,
                 news = news
