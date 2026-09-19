@@ -1,12 +1,35 @@
 {
-  "updated_at": "2026-09-19T09:40:00Z",
+  "updated_at": "2026-09-19T10:33:48Z",
   "disclaimer": "This is pattern-spotting from public web data, not financial advice or a trading recommendation - verify independently before acting.",
-  "flags": [],
-  "movers": [],
-  "news": [
+  "flags": [
     {
-      "headline": "Market Scanner app installed",
-      "summary": "Waiting for the first hourly scan to publish real data here."
+      "symbol": "XENE",
+      "name": "Xenon Pharmaceuticals",
+      "direction": "down",
+      "summary": "Fell about 29% after pausing its Phase 3 epilepsy drug trial - a severe, unambiguous catalyst. Technicals confirm the weakness: a 'Strong Sell' rating with 11 of 12 moving averages bearish and a deeply oversold Stochastic RSI (16.3), though the 14-day RSI (36.9) isn't extreme yet. Watch for further downside risk rather than an immediate bounce."
+    },
+    {
+      "symbol": "COIN",
+      "name": "Coinbase Global",
+      "direction": "up",
+      "summary": "Jumped about 6.6% after the SEC approved a five-year 'Innovation Exemption' allowing tokenized stock trading - a real regulatory tailwind, not routine noise. Technicals confirm strong momentum (Strong Buy rating, MACD +5.23, ADX 54.8), but the 14-day RSI is already at 71 (overbought), so this is a watch-for-further-upside setup with real near-term pullback risk after the pop."
     }
+  ],
+  "movers": [
+    { "symbol": "XENE", "change_pct": -29.0, "market": "stocks" },
+    { "symbol": "COIN", "change_pct": 6.55, "market": "stocks" },
+    { "symbol": "HOOD", "change_pct": 5.94, "market": "stocks" },
+    { "symbol": "SNDK", "change_pct": 4.93, "market": "stocks" },
+    { "symbol": "NUE", "change_pct": -5.33, "market": "stocks" },
+    { "symbol": "PANW", "change_pct": -4.14, "market": "stocks" },
+    { "symbol": "IFX.DE", "change_pct": 3.27, "market": "stocks" },
+    { "symbol": "DTE.DE", "change_pct": -3.27, "market": "stocks" }
+  ],
+  "news": [
+    { "headline": "Fed hikes interest rates for first time in three years", "summary": "10-year Treasury yield touched 5%; S&P 500 (+0.17%) and Nasdaq (+0.39%) closed higher, Dow (-0.18%) and Russell 2000 (-0.50%) lagged." },
+    { "headline": "Crypto CLARITY Act fails in the Senate", "summary": "Comprehensive crypto regulation bill stalled; Bitcoin and Ethereum still edged higher as investors look to the SEC/CFTC for an alternative regulatory path." },
+    { "headline": "SEC approves 5-year 'Innovation Exemption' for tokenized stock trading", "summary": "Lifted crypto-exchange names Coinbase and Robinhood on a genuine regulatory catalyst." },
+    { "headline": "Warren Buffett steps down as Berkshire Hathaway chairman", "summary": "Son Howard Buffett assumes the chairman role." },
+    { "headline": "DAX down 0.53% on a 'triple witching' expiration day", "summary": "Deutsche Telekom (-3.27%) led losers; Infineon (+3.27%) was the standout gainer." }
   ]
 }
