@@ -1,69 +1,68 @@
 {
-  "updated_at": "2026-09-19T11:10:00Z",
+  "updated_at": "2026-09-22T08:07:44Z",
   "disclaimer_en": "This is pattern-spotting from public web data, not financial advice or a trading recommendation - verify independently before acting.",
   "disclaimer_de": "Dies ist eine musterbasierte Einordnung öffentlicher Webdaten, keine Anlageberatung oder Handelsempfehlung - bitte unabhängig prüfen, bevor du handelst.",
   "flags": [
     {
-      "symbol": "XENE",
-      "name": "Xenon Pharmaceuticals",
-      "direction": "down",
-      "technical_bias": "bearish",
-      "summary_en": "Fell about 29% after pausing its Phase 3 epilepsy drug trial - a severe, unambiguous catalyst. Technicals confirm the weakness: a 'Strong Sell' rating with 11 of 12 moving averages bearish and a deeply oversold Stochastic RSI (16.3), though the 14-day RSI (36.9) isn't extreme yet. Watch for further downside risk rather than an immediate bounce.",
-      "summary_de": "Fiel um etwa 29%, nachdem die Phase-3-Studie zum Epilepsiemedikament pausiert wurde - ein schwerwiegender, eindeutiger Auslöser. Die technischen Indikatoren bestätigen die Schwäche: eine 'Strong Sell'-Einstufung mit 11 von 12 gleitenden Durchschnitten im bärischen Bereich und ein stark überverkaufter Stochastik-RSI (16,3), während der 14-Tage-RSI (36,9) noch nicht extrem ist. Weiteres Abwärtsrisiko ist wahrscheinlicher als eine unmittelbare Erholung.",
-      "historical_context_en": "General technical-analysis experience: large single-day drops from clinical-trial setbacks in biotech names have tended to see continued weakness or extended sideways consolidation over the following days-to-weeks rather than a quick V-shaped recovery, since the market typically waits for the company's next update (revised guidance, trial restart plans) before a bottom forms. An oversold reading alone doesn't reliably mark a bottom when the catalyst is this severe - this is a general tendency, not a prediction for this specific stock.",
-      "historical_context_de": "Allgemeine Erfahrung aus der technischen Analyse: Große Eintagesverluste nach Rückschlägen bei klinischen Studien in Biotech-Werten gingen in der Vergangenheit eher mit anhaltender Schwäche oder längerer Seitwärtskonsolidierung über Tage bis Wochen einher als mit einer schnellen V-förmigen Erholung, da der Markt meist das nächste Unternehmens-Update abwartet (angepasste Prognosen, Pläne zur Wiederaufnahme der Studie), bevor sich ein Boden bildet. Ein überverkaufter Wert allein markiert bei einem derart schweren Auslöser keinen zuverlässigen Boden - dies ist eine allgemeine Tendenz, keine Prognose für diese konkrete Aktie."
-    },
-    {
-      "symbol": "COIN",
-      "name": "Coinbase Global",
+      "symbol": "WBD",
+      "name": "Warner Bros. Discovery",
       "direction": "up",
       "technical_bias": "bullish",
-      "summary_en": "Jumped about 6.6% after the SEC approved a five-year 'Innovation Exemption' allowing tokenized stock trading - a real regulatory tailwind, not routine noise. Technicals confirm strong momentum (Strong Buy rating, MACD +5.23, ADX 54.8), but the 14-day RSI is already at 71 (overbought), so this is a watch-for-further-upside setup with real near-term pullback risk after the pop.",
-      "summary_de": "Sprang um etwa 6,6%, nachdem die SEC eine fünfjährige 'Innovation Exemption' für den Handel tokenisierter Aktien genehmigt hatte - ein echter regulatorischer Rückenwind, kein Routine-Rauschen. Die Technik bestätigt starkes Momentum (Strong-Buy-Einstufung, MACD +5,23, ADX 54,8), doch der 14-Tage-RSI liegt bereits bei 71 (überkauft) - also ein Setup mit möglichem weiterem Aufwärtspotenzial, aber auch echtem kurzfristigem Rückschlagsrisiko nach dem Sprung.",
-      "historical_context_en": "General technical-analysis experience: momentum breakouts backed by a genuine catalyst and confirming volume/trend strength (like a rising ADX) have tended to keep running for a stretch, but RSI readings above 70 also raise the odds of a short-term pullback or consolidation before any further advance - chasing right after a 6%+ single-day pop has historically carried elevated mean-reversion risk. This is a general tendency, not a prediction for this specific stock.",
-      "historical_context_de": "Allgemeine Erfahrung aus der technischen Analyse: Momentum-Ausbrüche mit einem echten Auslöser und bestätigender Volumen-/Trendstärke (z. B. steigender ADX) liefen historisch oft eine Weile weiter, doch RSI-Werte über 70 erhöhen auch die Wahrscheinlichkeit einer kurzfristigen Konsolidierung oder eines Rücksetzers, bevor es weiter aufwärts geht - direkt nach einem Tagesplus von über 6% einzusteigen, war historisch mit erhöhtem Risiko einer Gegenbewegung verbunden. Dies ist eine allgemeine Tendenz, keine Prognose für diese konkrete Aktie."
+      "summary_en": "Jumped about 11% and neared its 52-week high after Paramount Skydance's $110B merger bid cleared a legal hurdle and settlement talks emerged with the California Attorney General - a real, deal-specific catalyst that removes uncertainty rather than routine noise. Technicals lean bullish (overall 'Buy' rating, moving averages all pointing to Buy), though RSI (65.5) is approaching overbought and some oscillators (Stochastic, Williams %R, CCI) are already flashing Sell, so the picture is bullish but not clean.",
+      "summary_de": "Sprang um etwa 11% und näherte sich dem 52-Wochen-Hoch, nachdem das 110-Milliarden-Dollar-Übernahmeangebot von Paramount Skydance eine rechtliche Hürde genommen hatte und Vergleichsgespräche mit der kalifornischen Generalstaatsanwaltschaft bekannt wurden - ein echter, deal-spezifischer Auslöser, der Unsicherheit beseitigt und kein Routine-Rauschen ist. Die Technik tendiert bullisch (Gesamteinstufung 'Buy', alle gleitenden Durchschnitte zeigen Kaufsignale), doch der RSI (65,5) nähert sich dem überkauften Bereich, und einige Oszillatoren (Stochastik, Williams %R, CCI) zeigen bereits Verkaufssignale - das Bild ist also bullisch, aber nicht eindeutig.",
+      "historical_context_en": "General technical-analysis experience: stocks that jump on a merger/legal-catalyst clearance (deal uncertainty being resolved) have tended to hold gains better than a pure momentum spike, since the catalyst structurally changes the risk picture rather than just reflecting short-term enthusiasm. That said, a stock nearing a 52-week high with some oscillators already at overbought/sell readings has historically seen a higher chance of short-term consolidation or a pullback before any further advance. This is a general tendency, not a prediction for this specific stock.",
+      "historical_context_de": "Allgemeine Erfahrung aus der technischen Analyse: Aktien, die nach der Klärung eines Übernahme- oder Rechtsrisikos (Wegfall von Deal-Unsicherheit) springen, hielten ihre Gewinne historisch tendenziell besser als bei einem reinen Momentum-Ausschlag, da der Auslöser das Risikobild strukturell verändert und nicht nur kurzfristige Euphorie widerspiegelt. Allerdings hatten Aktien nahe einem 52-Wochen-Hoch mit bereits überkauften/verkaufssignalisierenden Oszillatoren historisch eine höhere Wahrscheinlichkeit für eine kurzfristige Konsolidierung oder einen Rücksetzer, bevor es weiter aufwärts geht. Dies ist eine allgemeine Tendenz, keine Prognose für diese konkrete Aktie."
+    },
+    {
+      "symbol": "NVO",
+      "name": "Novo Nordisk",
+      "direction": "down",
+      "technical_bias": "bearish",
+      "summary_en": "Fell roughly 6-7% after unveiling its 2030 growth strategy, including a $23B obesity-drug sales target that investors saw as underwhelming given current Wegovy sales trends - a real strategic-guidance catalyst, not routine volatility. Technicals confirm the weakness: an overall 'Sell' technical rating (12 bearish vs. 8 bullish signals), with price still trading above most key moving averages (5/20/50/200-day), meaning it isn't oversold yet by that measure even as the broader technical consensus leans bearish.",
+      "summary_de": "Fiel um etwa 6-7%, nachdem das Unternehmen seine Wachstumsstrategie bis 2030 vorgestellt hatte - darunter ein Umsatzziel von 23 Mrd. USD für Adipositas-Medikamente, das Anleger angesichts der aktuellen Wegovy-Verkaufstrends als enttäuschend einstuften - ein echter strategischer Auslöser, keine Routine-Schwankung. Die Technik bestätigt die Schwäche: eine Gesamteinstufung 'Sell' (12 bärische gegenüber 8 bullischen Signalen), wobei der Kurs noch über den meisten wichtigen gleitenden Durchschnitten (5/20/50/200 Tage) notiert - nach diesem Maßstab also noch nicht überverkauft, obwohl der technische Gesamtkonsens bärisch ausfällt.",
+      "historical_context_en": "General technical-analysis experience: large-cap names that sell off on a disappointing strategy or guidance update (rather than a one-off shock) have tended to see continued weakness or range-bound trading over the following weeks while the market resets growth expectations, since it typically takes a subsequent guidance revision or new data catalyst to change the narrative. A 'Sell' technical consensus with the price not yet oversold on moving averages has historically left room for further mean-reversion before any stabilization. This is a general tendency, not a prediction for this specific stock.",
+      "historical_context_de": "Allgemeine Erfahrung aus der technischen Analyse: Large-Cap-Werte, die nach einer enttäuschenden Strategie- oder Prognose-Vorstellung (statt eines einmaligen Schocks) verkauft werden, zeigten historisch eher anhaltende Schwäche oder Seitwärtsbewegung über die folgenden Wochen, während der Markt die Wachstumserwartungen neu justiert - meist braucht es eine spätere Prognoseanpassung oder einen neuen Datenpunkt, um die Erzählung zu ändern. Ein bärischer technischer Konsens bei einem Kurs, der gemessen an den gleitenden Durchschnitten noch nicht überverkauft ist, ließ historisch Raum für weitere Gegenbewegung, bevor sich die Lage stabilisiert. Dies ist eine allgemeine Tendenz, keine Prognose für diese konkrete Aktie."
     }
   ],
   "movers": [
-    { "symbol": "XENE", "change_pct": -29.0, "market": "stocks" },
-    { "symbol": "COIN", "change_pct": 6.55, "market": "stocks" },
-    { "symbol": "HOOD", "change_pct": 5.94, "market": "stocks" },
-    { "symbol": "SNDK", "change_pct": 4.93, "market": "stocks" },
-    { "symbol": "NUE", "change_pct": -5.33, "market": "stocks" },
-    { "symbol": "PANW", "change_pct": -4.14, "market": "stocks" },
-    { "symbol": "IFX.DE", "change_pct": 3.27, "market": "stocks" },
-    { "symbol": "DTE.DE", "change_pct": -3.27, "market": "stocks" }
+    { "symbol": "WBD", "change_pct": 11.0, "market": "stocks" },
+    { "symbol": "NVO", "change_pct": -6.5, "market": "stocks" },
+    { "symbol": "PSKY", "change_pct": 5.3, "market": "stocks" },
+    { "symbol": "COIN", "change_pct": 5.5, "market": "stocks" },
+    { "symbol": "MSTR", "change_pct": 5.4, "market": "stocks" },
+    { "symbol": "ACN", "change_pct": 4.8, "market": "stocks" },
+    { "symbol": "ARM", "change_pct": 2.3, "market": "stocks" }
   ],
   "news": [
     {
-      "headline_en": "Fed hikes interest rates for first time in three years",
-      "headline_de": "Fed erhöht erstmals seit drei Jahren die Leitzinsen",
-      "summary_en": "10-year Treasury yield touched 5%; S&P 500 (+0.17%) and Nasdaq (+0.39%) closed higher, Dow (-0.18%) and Russell 2000 (-0.50%) lagged.",
-      "summary_de": "Die Rendite 10-jähriger US-Staatsanleihen erreichte 5%; S&P 500 (+0,17%) und Nasdaq (+0,39%) schlossen im Plus, Dow (-0,18%) und Russell 2000 (-0,50%) hinkten hinterher."
+      "headline_en": "Paramount Skydance's $110B Warner Bros. Discovery merger clears legal hurdle",
+      "headline_de": "Paramount Skydances Übernahme von Warner Bros. Discovery über 110 Mrd. USD nimmt rechtliche Hürde",
+      "summary_en": "Settlement talks with the California Attorney General also emerged, lifting WBD and Paramount (PSKY) shares.",
+      "summary_de": "Zudem wurden Vergleichsgespräche mit der kalifornischen Generalstaatsanwaltschaft bekannt, was die Aktien von WBD und Paramount (PSKY) beflügelte."
     },
     {
-      "headline_en": "Crypto CLARITY Act fails in the Senate",
-      "headline_de": "Krypto-Gesetz 'CLARITY Act' scheitert im Senat",
-      "summary_en": "Comprehensive crypto regulation bill stalled; Bitcoin and Ethereum still edged higher as investors look to the SEC/CFTC for an alternative regulatory path.",
-      "summary_de": "Das umfassende Krypto-Regulierungsgesetz kam ins Stocken; Bitcoin und Ethereum legten dennoch leicht zu, da Anleger nun auf einen alternativen Regulierungsweg über SEC/CFTC hoffen."
+      "headline_en": "Novo Nordisk unveils 2030 growth strategy, but investors are underwhelmed",
+      "headline_de": "Novo Nordisk stellt Wachstumsstrategie bis 2030 vor, Anleger zeigen sich enttäuscht",
+      "summary_en": "A $23B obesity-drug sales target failed to impress given current Wegovy sales trends; shares slid roughly 6-7%.",
+      "summary_de": "Ein Umsatzziel von 23 Mrd. USD für Adipositas-Medikamente konnte angesichts der aktuellen Wegovy-Verkaufstrends nicht überzeugen; die Aktie fiel um etwa 6-7%."
     },
     {
-      "headline_en": "SEC approves 5-year 'Innovation Exemption' for tokenized stock trading",
-      "headline_de": "SEC genehmigt 5-jährige 'Innovation Exemption' für den Handel tokenisierter Aktien",
-      "summary_en": "Lifted crypto-exchange names Coinbase and Robinhood on a genuine regulatory catalyst.",
-      "summary_de": "Trieb die Aktien der Krypto-Börsen Coinbase und Robinhood dank eines echten regulatorischen Auslösers nach oben."
+      "headline_en": "Oil prices and Treasury yields fall, AI trade regains footing",
+      "headline_de": "Ölpreise und Anleiherenditen fallen, KI-Handel gewinnt wieder an Stärke",
+      "summary_en": "WTI crude dropped as Strait of Hormuz shipping hit a six-month high; chipmakers like Arm (ARM) and Western Digital (WDC) gained over 2% as AI concerns eased.",
+      "summary_de": "WTI-Rohöl fiel, da die Schifffahrt durch die Straße von Hormus ein Sechsmonatshoch erreichte; Chiphersteller wie Arm (ARM) und Western Digital (WDC) legten über 2% zu, da sich KI-bezogene Sorgen abschwächten."
     },
     {
-      "headline_en": "Warren Buffett steps down as Berkshire Hathaway chairman",
-      "headline_de": "Warren Buffett tritt als Vorstandsvorsitzender von Berkshire Hathaway zurück",
-      "summary_en": "Son Howard Buffett assumes the chairman role.",
-      "summary_de": "Sohn Howard Buffett übernimmt die Rolle des Vorstandsvorsitzenden."
+      "headline_en": "Bitcoin hits highest level since January, lifting crypto-linked stocks",
+      "headline_de": "Bitcoin erreicht höchsten Stand seit Januar und treibt kryptonahe Aktien an",
+      "summary_en": "Strategy (MSTR) and Coinbase (COIN) both jumped more than 5% alongside the move.",
+      "summary_de": "Strategy (MSTR) und Coinbase (COIN) sprangen im Zuge dessen beide um mehr als 5%."
     },
     {
-      "headline_en": "DAX down 0.53% on a 'triple witching' expiration day",
-      "headline_de": "DAX fällt um 0,53% am 'dreifachen Hexensabbat'-Verfallstag",
-      "summary_en": "Deutsche Telekom (-3.27%) led losers; Infineon (+3.27%) was the standout gainer.",
-      "summary_de": "Deutsche Telekom (-3,27%) war größter Verlierer; Infineon (+3,27%) stach als größter Gewinner heraus."
+      "headline_en": "Accenture rises nearly 5% on AI partnership announcement with Anthropic",
+      "headline_de": "Accenture steigt fast 5% nach Ankündigung einer KI-Partnerschaft mit Anthropic",
+      "summary_en": "The partnership news added to broader AI-sector optimism in early trading.",
+      "summary_de": "Die Partnerschaftsnachricht verstärkte den allgemeinen KI-Sektor-Optimismus im frühen Handel."
     }
   ]
 }
